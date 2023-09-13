@@ -1,0 +1,1826 @@
+/*Start Navbar 1*/
+.logo {
+    background-color: #618770;
+    width: 45px;
+}
+
+.bodi {
+    background-color: #618770;
+}
+
+.nav {
+    text-align: center;
+    align-items: flex-end;
+}
+
+.nav li {
+    flex: 1;
+    font-size: 4px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*End Navbar 1*/
+
+
+/*Start second (2) part*/
+
+.drejtimi {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+#largesia1 {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 35px;
+}
+
+#largesia1 a {
+    text-decoration: none;
+}
+
+.name {
+    color: #FFFFFF;
+    font-family: Abhaya Libre Medium;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 6vw;
+    letter-spacing: 1.5px;
+}
+
+.butoni {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2px 0px;
+    border-radius: 2px;
+    border: 1px solid #FFFFFF;
+    margin-top: 15px;
+    font-size: 5px;
+    width: 40px;
+}
+
+.butoni:hover {
+    background-color: white;
+    color: #618770;
+}
+
+
+.pupi {
+    margin-top: 25px;
+    width: 65px;
+    height: 65px;
+}
+
+/* End second (2) part*/
+
+
+/* Start third (3) part*/
+
+.drejt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right: 7px;
+    margin-left: 6px;
+}
+
+.blocks2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.welcome {
+    color: white;
+    font-size: 3.5vw;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.tekst {
+    color: white;
+    font-family: Montserrat;
+    font-weight: 500;
+    word-wrap: break-word;
+    font-size: 4.5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bubi {
+    width: 75px;
+    height: 45px;
+    outline: 2px solid #618770;
+}
+
+.qeni-container {
+    align-self: center;
+}
+
+
+.qeni {
+    width: 70px;
+    height: 45px;
+    margin-bottom: 5px;
+    outline: 2px solid #618770;
+}
+
+.tekst2 {
+    color: black;
+    font-size: 2.5vw;
+    font-family: Montserrat;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+#katrori {
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    width: 63%;
+    height: 58px;
+    top: 210px;
+}
+
+/* End third (3) part */
+
+
+/* Start fourth (4) part */
+
+#description_ {
+    margin-top: 13%;
+    text-align: start;
+}
+
+#title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 3.5vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#price_description {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.9vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 1.3vh;
+    width: 95%;
+}
+
+#prices {
+    margin-top: 5%;
+    margin-bottom: 15%;
+    width: 95%;
+}
+
+
+/*  End fourth (4) part */
+
+
+/* Start fourth (5) part */
+
+.kutia {
+    height: 60px;
+    width: 100%;
+    background-image: url("kutia.jpg");
+    display: inline-flex;
+}
+#lista {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#lista li {
+    font-size: 2.6vw;
+    margin: 20px 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#lista li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#titulli {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+}
+
+#informata {
+    color: #000000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 2.1vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#box {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/*  End fourth (5) part */
+
+
+
+
+
+
+/* This is where @medias starts so that the code becomes responsive for different screen sizes */
+
+@media (min-width: 200px) {
+
+    .logo {
+        width: 60px;
+    }
+    
+    .nav li {
+        font-size: 5px;
+    }
+    
+    #largesia1 {
+        margin-right: 8px;
+        margin-left: 0px;
+        margin-top: 45px;
+    }
+    
+    .name {
+        font-size: 5.5vw;
+        letter-spacing: 2.2px;
+    }
+    
+    .butoni {
+        padding: 2px 2px;
+        border-radius: 3px;
+        border: 1px solid #FFFFFF;
+        margin-top: 20px;
+        font-size: 6px;
+        width: 60px;
+    }
+    
+    .pupi {
+        margin-top: 35px;
+        width: 90px;
+        height: 80px;
+    }
+    
+    .blocks {
+        margin-top: 70px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    .blocks2 {
+        margin-top: 90px;
+    }
+    
+    .welcome {
+        font-size: 3.7vw;
+    }
+    
+    .tekst {
+        font-size: 5.5px;
+        margin-top: 6px;
+        margin-bottom: 10px;
+    }
+    
+    .bubi {
+        width: 90px;
+        height: 60px;
+        outline: 3px solid #618770;
+    }
+    
+    .qeni {
+        width: 90px;
+        height: 60px;
+        margin-bottom: 5px;
+        outline: 3px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.5vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 80px;
+        top: 275px;
+    }
+    
+    .kutia {
+        height: 80%;
+        width: 100%;
+    }
+    
+    #lista li {
+        font-size: 2.4vw;
+        margin: 25px 7px;
+    }
+    
+    #titulli {
+        font-size: 3.2vw;
+    }
+    
+    #informata {
+        font-size: 5px;
+    }
+    
+    #box {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    }
+
+
+
+@media (min-width: 250px) {
+
+    .logo {
+        width: 70px;
+    }
+
+    .nav li {
+        font-size: 7px;
+    }
+
+    #largesia1 {
+        margin-right: 10px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .name {
+        font-size: 5.5vw;
+        letter-spacing: 2.2px;
+    }
+
+    .butoni {
+        padding: 3px 0px;
+        border-radius: 4px;
+        border: 2px solid #FFFFFF;
+        margin-top: 20px;
+        font-size: 7px;
+        width: 70px;
+    }
+
+    .pupi {
+        margin-top: 30px;
+        width: 115px;
+        height: 100px;
+    }
+
+    .blocks {
+        margin-top: 95px;
+        margin-right: 7px;
+        margin-left: 5px;
+    }
+
+    .blocks2 {
+        margin-top: 120px;
+    }
+
+    .welcome {
+        font-size: 3.5vw;
+    }
+
+    .tekst {
+        font-size: 6.9px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+    }
+
+    .bubi {
+        width: 110px;
+        height: 70px;
+        outline: 4px solid #618770;
+    }
+
+    .qeni {
+        width: 110px;
+        height: 70px;
+        margin-bottom: 5px;
+        outline: 4px solid #618770;
+    }
+
+    .tekst2 {
+        font-size: 2.3vw;
+    }
+
+    #katrori {
+        width: 63.5%;
+        height: 90px;
+        top: 330px;
+    }
+
+    .kutia {
+        height: 80%;
+        width: 100%;
+    }
+
+    #lista li {
+        font-size: 2.4vw;
+        margin: 30px 7px;
+    }
+
+    #titulli {
+        font-size: 3.2vw;
+    }
+
+    #informata {
+        font-size: 7px;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+}
+
+
+
+@media (min-width: 320px) {
+
+    .logo {
+        width: 80px;
+    }
+
+    .nav li {
+        font-size: 9px;
+    }
+
+    #largesia1 {
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 75px;
+    }
+
+    .name {
+        font-size: 19px;
+        letter-spacing: 3.7px;
+    }
+
+    .butoni {
+        padding: 4px 0px;
+        border-radius: 5px;
+        border: 2px solid #FFFFFF;
+        margin-top: 25px;
+        font-size: 10px;
+        width: 90px;
+    }
+
+    .pupi {
+        margin-top: 60px;
+        width: 140px;
+        height: 115px;
+    }
+
+    .blocks {
+        margin-top: 100px;
+        margin-right: 7px;
+        margin-left: 10px;
+    }
+
+    .blocks2 {
+        margin-top: 150px;
+    }
+
+    .welcome {
+        font-size: 4.0vw;
+    }
+
+    .tekst {
+        font-size: 2.6vw;
+        margin-top: 13px;
+        margin-bottom: 10px;
+    }
+
+    .bubi {
+        width: 150px;
+        height: 100px;
+        outline: 6px solid #618770;
+    }
+
+
+    .qeni {
+        width: 150px;
+        height: 100px;
+        margin-bottom: 5px;
+        outline: 6px solid #618770;
+    }
+
+    .tekst2 {
+        font-size: 2.6vw;
+    }
+
+    #katrori {
+        width: 63.5%;
+        height: 120px;
+        top: 435px;
+    }
+
+    .kutia {
+        height: 100%;
+        width: 100%;
+    }
+
+    #lista li {
+        font-size: 2.6vw;
+        margin: 40px 8px;
+    }
+
+    #titulli {
+        font-size: 3.5vw;
+    }
+
+    #informata {
+        font-size: xx-small;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+}
+
+
+
+@media (min-width: 400px) {
+
+    #largesia1 {
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 90px;
+    }
+    
+    .name {
+        font-size: 25px;
+        letter-spacing: 3.5px;
+    }
+    
+    .butoni {
+        padding: 4px 0px;
+        border: 2px solid #FFF;
+        margin-top: 25px;
+        font-size: 10px;
+        width: 110px;
+    }
+    
+    .pupi {
+        margin-top: 57px;
+        width: 180px;
+        height: 150px;
+    }
+
+    .blocks {
+        margin-top: 120px;
+        margin-right: 8px;
+        margin-left: 10px;
+    }
+    
+    .blocks2 {
+        margin-top: 190px;
+    }
+    
+    .welcome {
+        font-size: 4.0vw;
+    }
+    
+    .tekst {
+        font-size: 11px;
+        margin-top: 13px;
+        margin-bottom: 10px;
+    }
+    
+    .bubi {
+        width: 170px;
+        height: 110px;
+        outline: 6px solid #618770;
+    }
+    
+    .qeni {
+        width: 170px;
+        height: 110px;
+        margin-bottom: 5px;
+        outline: 6px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.5vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 140px;
+        top: 510px;
+    }
+
+    .kutia {
+        height: 100%;
+    }
+
+    #lista {
+        padding-left: 0px;
+    }
+
+    #lista li {
+        font-size: 2.6vw;
+        margin: 40px 8px;
+    }
+
+    #titulli {
+        font-size: 3vw;
+    }
+
+    #informata {
+        font-size: x-small;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+}
+
+
+
+@media (min-width: 450px) {
+
+    #largesia1 {
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 90px;
+    }
+    
+    .name {
+        font-size: 25px;
+        letter-spacing: 3.5px;
+    }
+    
+    .butoni {
+        padding: 4px 0px;
+        border: 2px solid #FFF;
+        margin-top: 25px;
+        font-size: 10px;
+        width: 115px;
+    }
+    
+    .pupi {
+        margin-top: 57px;
+        width: 180px;
+        height: 150px;
+    }
+
+    .blocks {
+        margin-top: 110px;
+        margin-right: 8px;
+        margin-left: 10px;
+    }
+    
+    .blocks2 {
+        margin-top: 170px;
+    }
+    
+    .welcome {
+        font-size: 4.0vw;
+    }
+    
+    .tekst {
+        font-size: 2.5vw;
+        margin-top: 13px;
+        margin-bottom: 10px;
+    }
+    
+    .bubi {
+        width: 180px;
+        height: 120px;
+        outline: 6px solid #618770;
+    }
+    
+    .qeni {
+        width: 180px;
+        height: 120px;
+        margin-bottom: 5px;
+        outline: 6px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.5vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 145px;
+        top: 500px;
+    }
+
+    .kutia {
+        height: 100%;
+    }
+
+    #lista {
+        padding-left: 0px;
+    }
+
+    #lista li {
+        font-size: 2.6vw;
+        margin: 40px 8px;
+    }
+
+    #titulli {
+        font-size: 3vw;
+    }
+
+    #informata {
+        font-size: x-small;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 500px) {
+
+    #largesia1 {
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 90px;
+    }
+    
+    .name {
+        font-size: 27px;
+        letter-spacing: 4.4px;
+    }
+    
+    .butoni {
+        padding: 4px 0px;
+        border: 2px solid #FFF;
+        margin-top: 25px;
+        font-size: 10px;
+        width: 115px;
+    }
+    
+    .pupi {
+        margin-top: 57px;
+        width: 190px;
+        height: 155px;
+    }
+
+    .blocks {
+        margin-top: 110px;
+        margin-right: 8px;
+        margin-left: 10px;
+    }
+    
+    .blocks2 {
+        margin-top: 170px;
+    }
+    
+    .welcome {
+        font-size: 4.0vw;
+    }
+    
+    .tekst {
+        font-size: 2.5vw;
+        margin-top: 13px;
+        margin-bottom: 10px;
+    }
+    
+    .bubi {
+        width: 220px;
+        height: 140px;
+        outline: 6px solid #618770;
+    }
+    
+    .qeni {
+        width: 220px;
+        height: 140px;
+        margin-bottom: 5px;
+        outline: 6px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.5vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 170px;
+        top: 510px;
+    }
+
+    .kutia {
+        height: 100%;
+    }
+
+    #lista {
+        padding-left: 0px;
+    }
+
+    #lista li {
+        font-size: 2.6vw;
+        margin: 40px 8px;
+    }
+
+    #titulli {
+        font-size: 3vw;
+    }
+
+    #informata {
+        font-size: x-small;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+}
+
+
+@media (min-width: 540px) {
+
+    .logo {
+        background-color: #618770;
+        width: 125px;
+    }
+
+    .nav li {
+        font-size: 13px;
+    }
+
+    #largesia1 {
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 100px;
+    }
+    
+    .name {
+        font-size: 33px;
+        letter-spacing: 4.4px;
+    }
+    
+    .butoni {
+        padding: 4px 0px;
+        border: 2px solid #FFF;
+        margin-top: 25px;
+        font-size: 10px;
+        width: 135px;
+    }
+    
+    .pupi {
+        margin-top: 70px;
+        width: 210px;
+        height: 170px;
+    }
+
+    .blocks {
+        margin-top: 140px;
+        margin-right: 7px;
+        margin-left: 10px;
+    }
+    
+    .blocks2 {
+        margin-top: 200px;
+    }
+    
+    .welcome {
+        font-size: 4.0vw;
+    }
+    
+    .tekst {
+        font-size: 15px;
+        margin-top: 13px;
+        padding-bottom: 10px;
+        background-color: #618770;
+    }
+    
+    .bubi {
+        width: 240px;
+        height: 155px;
+        outline: 6px solid #618770;
+    }
+    
+    .qeni {
+        width: 240px;
+        height: 150px;
+        margin-bottom: 5px;
+        outline: 6px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.5vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 173px;
+        top: 615px;
+    }
+
+    .kutia {
+        height: 150px;
+    }
+
+    #lista {
+        padding-left: 10px;
+    }
+
+    #lista li {
+        font-size: 2.6vw;
+        margin: 65px 8px;
+    }
+
+    #titulli {
+        font-size: 3vw;
+    }
+
+    #informata {
+        font-size: small;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+}
+
+
+
+@media (min-width: 650px) {
+
+    #largesia1 {
+        margin-right: 20px;
+        margin-left: 5px;
+        margin-top: 100px;
+    }
+    
+    .name {
+        font-size: 38px;
+        letter-spacing: 4.4px;
+    }
+    
+    .butoni {
+        padding: 4px 0px;
+        border: 2px solid #FFF;
+        margin-top: 25px;
+        font-size: 10px;
+        width: 145px;
+    }
+    
+    .pupi {
+        margin-top: 70px;
+        width: 250px;
+        height: 220px;
+    }
+
+    .blocks {
+        margin-top: 130px;
+        margin-right: 7px;
+        margin-left: 20px;
+    }
+    
+    .blocks2 {
+        margin-top: 210px;
+    }
+    
+    .welcome {
+        font-size: 4.0vw;
+    }
+    
+    .tekst {
+        font-size: 16px;
+        margin-top: 13px;
+        padding-bottom: 10px;
+        background-color: #618770;
+    }
+    
+    .bubi {
+        width: 260px;
+        height: 175px;
+        outline: 6px solid #618770;
+    }
+    
+    .qeni {
+        width: 260px;
+        height: 170px;
+        margin-bottom: 5px;
+        outline: 6px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.5vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 210px;
+        top: 680px;
+    }
+
+    #titulli {
+        font-size: 2.6vw;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+
+}
+
+
+
+@media (min-width: 700px) {
+    
+    #largesia1 {
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 130px;
+    }
+    
+    .name {
+        font-size: 45px;
+        letter-spacing: 6.6px;
+    }
+    
+    .butoni {
+        padding: 6px 0px;
+        border: 2px solid #FFF;
+        margin-top: 25px;
+        font-size: 10px;
+        width: 140px;
+        border-radius: 6px;
+    }
+    
+    .pupi {
+        margin-top: 70px;
+        width: 270px;
+        height: 240px;
+    }
+
+    .blocks {
+        margin-top: 110px;
+        margin-right: 7px;
+        margin-left: 20px;
+    }
+    
+    .blocks2 {
+        margin-top: 180px;
+    }
+    
+    .welcome {
+        font-size: 3.6vw;
+    }
+    
+    .tekst {
+        font-size: 18px;
+        margin-top: 13px;
+        padding-bottom: 10px;
+        background-color: #618770;
+    }
+    
+    .bubi {
+        width: 290px;
+        height: 200px;
+        outline: 6px solid #618770;
+    }
+    
+    .qeni {
+        width: 280px;
+        height: 190px;
+        margin-bottom: 5px;
+        outline: 6px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.5vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 230px;
+        top: 690px;
+    }
+
+    .kutia {
+        height: 150px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 2.1vw;
+        margin: 65px 10px;
+    }
+
+    #titulli {
+        font-size: 2.5vw;
+    }
+
+    #informata {
+        font-size: medium;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+}
+
+
+
+@media (min-width: 800px) {
+
+    .logo {
+        background-color: #618770;
+        width: 150px;
+    }
+
+    .nav li {
+        font-size: 15px;
+    }
+
+    #largesia1 {
+        margin-right: 20px;
+        margin-left: 0px;
+        margin-top: 135px;
+    }
+    
+    .name {
+        font-size: 54px;
+        letter-spacing: 7.7px;
+    }
+    
+    .butoni {
+        padding: 10px 0px;
+        border: 2px solid #FFF;
+        margin-top: 25px;
+        font-size: 15px;
+        width: 190px;
+    }
+    
+    .pupi {
+        margin-top: 70px;
+        width: 310px;
+        height: 290px;
+    }
+
+    .blocks {
+        margin-top: 150px;
+        margin-right: 7px;
+        margin-left: 40px;
+    }
+    
+    .blocks2 {
+        margin-top: 270px;
+    }
+    
+    .welcome {
+        font-size: 3.4vw;
+    }
+    
+    .tekst {
+        font-size: 22px;
+        margin-top: 13px;
+        padding-bottom: 10px;
+        background-color: #618770;
+    }
+    
+    .bubi {
+        width: 340px;
+        height: 240px;
+        outline: 6px solid #618770;
+    }
+    
+    .qeni {
+        width: 360px;
+        height: 230px;
+        margin-bottom: 20px;
+        outline: 6px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.5vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 300px;
+        top: 850px;
+    }
+
+    .kutia {
+        height: 180px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 80px 10px;
+    }
+
+    #titulli {
+        font-size: 2.5vw;
+    }
+
+    #informata {
+        font-size: 16px;
+    }
+
+    #box {
+        margin-top: 30px;
+        margin-left: 230px;
+    }
+}
+
+
+
+@media (min-width: 1000px) {
+
+    .logo {
+        background-color: #618770;
+        width: 200px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    #largesia1 {
+        margin-right: 90px;
+        margin-left: 0px;
+        margin-top: 145px;
+    }
+    
+    .name {
+        font-size: 60px;
+        letter-spacing: 7.7px;
+    }
+    
+    .butoni {
+        padding: 10px 0px;
+        border: 2px solid #FFF;
+        margin-top: 25px;
+        font-size: 15px;
+        width: 200px;
+    }
+    
+    .pupi {
+        margin-top: 75px;
+        width: 380px;
+        height: 330px;
+    }
+
+    .blocks {
+        margin-top: 180px;
+        margin-right: 10px;
+        margin-left: 70px;
+    }
+    
+    .blocks2 {
+        margin-top: 270px;
+    }
+    
+    .welcome {
+        font-size: 3.4vw;
+    }
+    
+    .tekst {
+        font-size: 26px;
+        margin-top: 13px;
+        padding-bottom: 10px;
+        background-color: #618770;
+    }
+    
+    .bubi {
+        width: 450px;
+        height: 280px;
+        outline: 8px solid #618770;
+    }
+    
+    .qeni {
+        width: 450px;
+        height: 280px;
+        margin-bottom: 20px;
+        outline: 8px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.2vw;
+    }
+    
+    #katrori {
+        width: 60%;
+        height: 320px;
+        top: 970px;
+    }
+
+    .kutia {
+        height: 230px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 80px 20px;
+    }
+
+    #titulli {
+        font-size: 2vw;
+    }
+
+    #informata {
+        font-size: 18px;
+    }
+
+    #box {
+        margin-top: 30px;
+        margin-left: 250px;
+    }
+}
+
+
+
+@media (min-width: 1250px) {
+
+    .logo {
+        background-color: #618770;
+        width: 200px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    #largesia1 {
+        margin-right: 130px;
+        margin-left: 10px;
+        margin-top: 240px;
+    }
+    
+    .name {
+        font-size: 75px;
+        letter-spacing: 8.8px;
+    }
+    
+    .butoni {
+        padding: 13px 0px;
+        border: 4px solid #FFF;
+        margin-top: 25px;
+        font-size: 15px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    
+    .pupi {
+        margin-top: 130px;
+        width: 460px;
+        height: 420px;
+    }
+
+    .blocks {
+        margin-top: 220px;
+        margin-right: 7px;
+        margin-left: 100px;
+    }
+    
+    .blocks2 {
+        margin-top: 300px;
+    }
+    
+    .welcome {
+        font-size: 3.2vw;
+    }
+    
+    .tekst {
+        font-size: 28px;
+        margin-top: 35px;
+        margin-bottom: 41px;
+        background-color: #618770;
+    }
+    
+    .bubi {
+        width: 550px;
+        height: 330px;
+        outline: 8px solid #618770;
+    }
+    
+    .qeni {
+        width: 550px;
+        height: 330px;
+        margin-bottom: 31px;
+        outline: 8px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.1vw;
+        margin-left: 20px;
+    }
+    
+    #katrori {
+        width: 60%;
+        height: 370px;
+        top: 1190px;
+    }
+
+    .kutia {
+        height: 290px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 120px 25px;
+    }
+
+    #titulli {
+        font-size: 2vw;
+    }
+
+    #informata {
+        font-size: 25px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+}
+
+
+
+@media (min-width: 1500px) {
+
+    .logo {
+        background-color: #618770;
+        width: 260px;
+    }
+
+    .nav li {
+        font-size: 23px;
+    }
+
+    #largesia1 {
+        margin-right: 160px;
+        margin-left: 30px;
+        margin-top: 240px;
+    }
+    
+    .name {
+        font-size: 100px;
+        letter-spacing: 9.9px;
+    }
+    
+    .butoni {
+        padding: 15px 0px;
+        border: 4px solid #FFF;
+        margin-top: 25px;
+        font-size: 25px;
+        width: 300px;
+        border-radius: 12px;
+    }
+    
+    .pupi {
+        margin-top: 130px;
+        width: 560px;
+        height: 540px;
+    }
+
+
+    .blocks {
+        margin-top: 180px;
+        margin-right: 7px;
+        margin-left: 70px;
+    }
+    
+    .blocks2 {
+        margin-top: 360px;
+    }
+    
+    .welcome {
+        font-size: 3.6vw;
+    }
+    
+    .tekst {
+        font-size: 45px;
+        margin-top: 35px;
+        margin-bottom: 41px;
+        background-color: #618770;
+    }
+    
+    .bubi {
+        width: 650px;
+        height: 420px;
+        outline: 8px solid #618770;
+    }
+    
+    .qeni {
+        width: 650px;
+        height: 450px;
+        margin-bottom: 31px;
+        outline: 8px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.2vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 500px;
+        top: 1500px;
+    }
+
+    .kutia {
+        height: 290px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 120px 25px;
+    }
+
+    #titulli {
+        font-size: 2.5vw;
+    }
+
+    #informata {
+        font-size: 30px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 420px;
+    }
+}
+
+
+
+@media (min-width: 1800px) {
+
+    .logo {
+        background-color: #618770;
+        width: 300px;
+    }
+
+    .nav li {
+        font-size: 30px;
+    }
+
+    #largesia1 {
+        margin-right: 160px;
+        margin-left: 30px;
+        margin-top: 240px;
+    }
+    
+    .name {
+        font-size: 140px;
+        letter-spacing: 10.10px;
+    }
+    
+    .butoni {
+        padding: 15px 0px;
+        border: 5px solid #FFF;
+        margin-top: 25px;
+        font-size: 25px;
+        width: 400px;
+        border-radius: 14px;
+    }
+    
+    .pupi {
+        margin-top: 130px;
+        width: 580px;
+        height: 640px;
+    }
+
+    .blocks {
+        margin-top: 180px;
+        margin-right: 7px;
+        margin-left: 70px;
+    }
+    
+    .blocks2 {
+        margin-top: 360px;
+    }
+    
+    .welcome {
+        font-size: 3.2vw;
+    }
+    
+    .tekst {
+        font-size: 55px;
+        margin-top: 35px;
+        margin-bottom: 41px;
+        background-color: #618770;
+    }
+    
+    .bubi {
+        width: 800px;
+        height: 550px;
+        outline: 9px solid #618770;
+    }
+    
+    .qeni {
+        width: 800px;
+        height: 550px;
+        margin-bottom: 31px;
+        outline: 9px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.2vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 650px;
+        top: 1700px;
+    }
+
+    .kutia {
+        height: 340px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 130px 25px;
+    }
+
+    #titulli {
+        font-size: 2vw;
+    }
+
+    #informata {
+        font-size: 31px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 550px;
+    }
+}
+
+
+
+@media (min-width: 2100px) {
+
+    .logo {
+        background-color: #618770;
+        width: 350px;
+    }
+
+    .nav li {
+        font-size: 33px;
+    }
+
+    #largesia1 {
+        margin-right: 160px;
+        margin-left: 30px;
+        margin-top: 280px;
+    }
+    
+    .name {
+        font-size: 150px;
+        letter-spacing: 11.11px;
+    }
+    
+    .butoni {
+        padding: 20px 0px;
+        border: 6px solid #FFF;
+        margin-top: 25px;
+        font-size: 30px;
+        width: 450px;
+        border-radius: 14px;
+    }
+    
+    .pupi {
+        margin-top: 100px;
+        width: 660px;
+        height: 720px;
+    }
+
+    .blocks {
+        margin-top: 180px;
+        margin-right: 7px;
+        margin-left: 70px;
+    }
+    
+    .blocks2 {
+        margin-top: 360px;
+    }
+    
+    .welcome {
+        font-size: 3.2vw;
+    }
+    
+    .tekst {
+        font-size: 55px;
+        margin-top: 35px;
+        margin-bottom: 41px;
+        background-color: #618770;
+    }
+    
+    .bubi {
+        width: 950px;
+        height: 590px;
+        outline: 9px solid #618770;
+    }
+    
+    .qeni {
+        width: 900px;
+        height: 600px;
+        margin-bottom: 31px;
+        outline: 9px solid #618770;
+    }
+    
+    .tekst2 {
+        font-size: 2.2vw;
+    }
+    
+    #katrori {
+        width: 63.5%;
+        height: 650px;
+        top: 1700px;
+    }
+
+    .kutia {
+        height: 340px;
+    }
+
+    #lista {
+        padding-left: 100px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 130px 25px;
+    }
+
+    #titulli {
+        font-size: 2.2vw;
+    }
+
+    #informata {
+        font-size: 34px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 650px;
+    }
+}

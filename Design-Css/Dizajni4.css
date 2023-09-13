@@ -1,0 +1,343 @@
+/*Start Navbar 1*/
+.logo {
+    background-color: #618770;
+    width: 45px;
+}
+
+.bodi {
+    background-color: #618770;
+}
+
+.nav {
+    text-align: center;
+    align-items: flex-end;
+}
+
+.nav li {
+    flex: 1;
+    font-size: 4px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* End Navbar 1 */
+
+/* Start second (2) part */
+
+#bashk {
+    display: flex;
+    justify-content: center;
+    margin-top: 14vw;
+    align-items: center;
+}
+
+#kontroll {
+    display: flex;
+    display: block;
+}
+
+#title {
+    color: #FFF;
+    font-family: Abhaya Libre Medium;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.3px;
+    font-size: 5vw;
+}
+
+#paragraf {
+    color: #FFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 3vw;
+    margin-top: 10vw;
+    margin-right: 11vw;
+}
+
+#paragraf span[data-number]:before {
+    content: attr(data-number);
+}
+
+#foto {
+    width: 45%;
+}
+
+/* End second (2) part */
+
+
+
+
+
+
+/* This is where @medias starts so that the code becomes responsive for different screen sizes */
+
+@media (min-width: 200px) {
+    .logo {
+        width: 60px;
+    }
+    
+    .nav li {
+        font-size: 5px;
+    }
+}
+
+
+
+@media (min-width: 250px) {
+
+    .logo {
+        width: 70px;
+    }
+    
+    .nav li {
+        font-size: 7px;
+    }
+}
+
+
+
+@media (min-width: 320px) {
+
+    .logo {
+        width: 80px;
+    }
+
+    .nav li {
+        font-size: 9px;
+    }
+}
+
+
+
+@media (min-width: 500px) {
+
+    .logo {
+        background-color: #618770;
+        width: 125px;
+    }
+
+    .nav li {
+        font-size: 13px;
+    }
+}
+
+
+
+@media (min-width: 700px) {
+    
+    #title {
+        letter-spacing: 6.6px;
+        font-size: 5vw;
+    }
+    
+    #paragraf {
+        font-size: 2vw;
+        margin-top: 10vw;
+        margin-right: 20vw;
+    }
+    
+    #foto {
+        width: 35%;
+    }
+}
+
+
+
+@media (min-width: 800px) {
+
+    .logo {
+        background-color: #618770;
+        width: 150px;
+    }
+
+    .nav li {
+        font-size: 15px;
+    }
+
+    #title {
+        letter-spacing: 7.7px;
+        font-size: 5vw;
+    }
+    
+    #paragraf {
+        font-size: 2.5vw;
+        margin-top: 6vw;
+        margin-right: 18vw;
+    }
+    
+    #foto {
+        width: 35%;
+    }
+}
+
+
+
+@media (min-width: 1000px) {
+
+    .logo {
+        background-color: #618770;
+        width: 200px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    #title {
+        letter-spacing: 8.8px;
+        font-size: 5.5vw;
+    }
+    
+    #paragraf {
+        font-size: 2vw;
+        margin-top: 8vw;
+        margin-right: 25vw;
+    }
+    
+    #foto {
+        width: 40%;
+    }
+
+}
+
+
+
+@media (min-width: 1250px) {
+
+    .logo {
+        background-color: #618770;
+        width: 200px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    #bashk {
+        margin-top: 143px;
+    }
+
+    #title {
+        letter-spacing: 8.8px;
+        font-size: 80px;
+    }
+    
+    #paragraf {
+        font-size: 20px;
+        margin-top: 102px;
+        margin-right: 360px;
+    }
+    
+    #foto {
+        width: 462px;
+    }
+}
+
+
+
+@media (min-width: 1500px) {
+
+    .logo {
+        background-color: #618770;
+        width: 260px;
+    }
+
+    .nav li {
+        font-size: 23px;
+    }
+
+    #bashk {
+        margin-top: 155px;
+    }
+
+    #title {
+        letter-spacing: 8.8px;
+        font-size: 90px;
+    }
+    
+    #paragraf {
+        font-size: 30px;
+        margin-top: 108px;
+        margin-right: 380px;
+    }
+    
+    #foto {
+        width: 35%;
+    }
+}
+
+
+
+@media (min-width: 1800px) {
+
+    .logo {
+        background-color: #618770;
+        width: 300px;
+    }
+
+    .nav li {
+        font-size: 30px;
+    }
+
+    #bashk {
+        margin-top: 165px;
+    }
+
+    #title {
+        letter-spacing: 8.8px;
+        font-size: 100px;
+    }
+    
+    #paragraf {
+        font-size: 35px;
+        margin-top: 113px;
+        margin-right: 400px;
+    }
+    
+    #foto {
+        width: 35%;
+    }
+}
+
+
+
+@media (min-width: 2100px) {
+
+    .logo {
+        background-color: #618770;
+        width: 350px;
+    }
+
+    .nav li {
+        font-size: 33px;
+    }
+
+    #bashk {
+        margin-top: 180px;
+    }
+
+    #title {
+        letter-spacing: 9.9px;
+        font-size: 115px;
+    }
+    
+    #paragraf {
+        font-size: 45px;
+        margin-top: 113px;
+        margin-right: 400px;
+    }
+    
+    #foto {
+        width: 35%;
+    }
+}

@@ -1,0 +1,636 @@
+/*Start Navbar 1*/
+.logo {
+    background-color: #618770;
+    width: 45px;
+}
+
+.bodi {
+    background-color: #618770;
+}
+
+.nav {
+    text-align: center;
+    align-items: flex-end;
+}
+
+.nav li {
+    flex: 1;
+    font-size: 4px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*End Navbar 1*/
+
+
+/*Start second (2) part*/
+
+#together {
+    position: relative;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+#qeni {
+    width: 100%;
+    height: auto;
+}
+
+#titullit {
+    color: #FFF;
+    font-family: Abhaya Libre Medium;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 7.7px;
+    font-size: 7vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*End second (2) part*/
+
+
+/* Start third (3) part*/
+
+#border {
+    position: absolute;
+    border: 2px solid #FFF;
+    width: 46%;
+    height: 105vw;
+    z-index: -2;
+    margin-left: 27%;
+    margin-top: 18vw;
+}
+
+#position {
+    position: absolute;
+    text-align: end;
+    margin-top: 10vw;
+    width: 90%;
+    z-index: -1;
+}
+
+#qena {
+    width: 50%; 
+} /* If you want the white line surrounding the dogs to be thicker, just add the command in id: #qena and #buba, command is: " outline: 2px solid #FFFFFF; " */
+
+#fixed {
+    text-align: start;
+    width: 90%;
+    margin-left: 9%;
+    margin-top: 64vw;
+}
+
+#buba {
+    width: 50%;
+}  /* If you want the white line surrounding the dogs to be thicker, just add the command in id: #buba and #qena command is: " outline: 2px solid #FFFFFF; " */
+
+/* End third (3) part*/
+
+
+/* Start fourth (4) part */
+
+.kutia {
+    margin-top: 45px;
+    height: 60px;
+    width: 100%;
+    background-image: url("kutia.jpg");
+    display: inline-flex;
+}
+#lista {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#lista li {
+    font-size: 2.6vw;
+    margin: 20px 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#lista li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#titulli {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+}
+
+#informata {
+    color: #000000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 2.1vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#box {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* End fourth (4) part */
+
+
+
+
+
+
+/* This is where @medias starts so that the code becomes responsive for different screen sizes */
+
+@media (min-width: 200px) {
+    .logo {
+        width: 60px;
+    }
+    
+    .nav li {
+        font-size: 5px;
+    }
+
+    .kutia {
+        margin-top: 60px;
+        height: 80%;
+        width: 100%;
+    }
+    
+    #lista li {
+        font-size: 2.4vw;
+        margin: 25px 7px;
+    }
+    
+    #titulli {
+        font-size: 3.2vw;
+    }
+    
+    #informata {
+        font-size: 5px;
+    }
+    
+    #box {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+}
+
+
+
+@media (min-width: 250px) {
+
+    .logo {
+        width: 70px;
+    }
+    
+    .nav li {
+        font-size: 7px;
+    }
+
+    .kutia {
+        margin-top: 90px;
+        height: 80%;
+        width: 100%;
+    }
+    
+    #lista li {
+        font-size: 2.4vw;
+        margin: 30px 7px;
+    }
+    
+    #titulli {
+        font-size: 3.2vw;
+    }
+    
+    #informata {
+        font-size: 7px;
+    }
+    
+    #box {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+}
+
+
+
+@media (min-width: 320px) {
+
+    .logo {
+        width: 80px;
+    }
+
+    .nav li {
+        font-size: 9px;
+    }
+
+    .kutia {
+        margin-top: 100px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #lista li {
+        font-size: 2.6vw;
+        margin: 40px 8px;
+    }
+    
+    #titulli {
+        font-size: 3.5vw;
+    }
+    
+    #informata {
+        font-size: xx-small;
+    }
+    
+    #box {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+}
+
+
+
+@media (min-width: 400px) {
+
+    .kutia {
+        margin-top: 100px;
+        height: 100%;
+    }
+
+    #lista {
+        padding-left: 0px;
+    }
+
+    #lista li {
+        font-size: 2.6vw;
+        margin: 40px 8px;
+    }
+
+    #titulli {
+        font-size: 3vw;
+    }
+
+    #informata {
+        font-size: x-small;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+}
+
+
+
+@media (min-width: 500px) {
+
+    .logo {
+        background-color: #618770;
+        width: 125px;
+    }
+
+    .nav li {
+        font-size: 13px;
+    }
+
+    .kutia {
+        margin-top: 100px;
+        height: 150px;
+    }
+
+    #lista {
+        padding-left: 10px;
+    }
+
+    #lista li {
+        font-size: 2.6vw;
+        margin: 65px 8px;
+    }
+
+    #titulli {
+        font-size: 3vw;
+    }
+
+    #informata {
+        font-size: small;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+}
+
+
+
+@media (min-width: 650px) {
+
+    #titulli {
+        font-size: 2.6vw;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+}
+
+
+
+@media (min-width: 700px) {
+
+    .kutia {
+        margin-top: 180px;
+        height: 150px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 2.1vw;
+        margin: 65px 10px;
+    }
+
+    #titulli {
+        font-size: 2.5vw;
+    }
+
+    #informata {
+        font-size: medium;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+}
+
+
+
+@media (min-width: 800px) {
+
+    .logo {
+        background-color: #618770;
+        width: 150px;
+    }
+
+    .nav li {
+        font-size: 15px;
+    }
+
+    .kutia {
+        margin-top: 200px;
+        height: 180px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 80px 10px;
+    }
+
+    #titulli {
+        font-size: 2.5vw;
+    }
+
+    #informata {
+        font-size: 16px;
+    }
+
+    #box {
+        margin-top: 30px;
+        margin-left: 230px;
+    }
+}
+
+
+
+@media (min-width: 1000px) {
+
+    .logo {
+        background-color: #618770;
+        width: 200px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    .kutia {
+        margin-top: 200px;
+        height: 230px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 80px 20px;
+    }
+
+    #titulli {
+        font-size: 2vw;
+    }
+
+    #informata {
+        font-size: 18px;
+    }
+
+    #box {
+        margin-top: 30px;
+        margin-left: 250px;
+    }
+}
+
+
+
+@media (min-width: 1250px) {
+
+    .logo {
+        background-color: #618770;
+        width: 200px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    .kutia {
+        margin-top: 200px;
+        height: 290px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 120px 25px;
+    }
+
+    #titulli {
+        font-size: 2vw;
+    }
+
+    #informata {
+        font-size: 25px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+}
+
+
+
+@media (min-width: 1500px) {
+
+    .logo {
+        background-color: #618770;
+        width: 260px;
+    }
+
+    .nav li {
+        font-size: 23px;
+    }
+
+    .kutia {
+        margin-top: 200px;
+        height: 290px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 120px 25px;
+    }
+
+    #titulli {
+        font-size: 2.5vw;
+    }
+
+    #informata {
+        font-size: 30px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 420px;
+    }
+}
+
+
+
+@media (min-width: 1800px) {
+
+    .logo {
+        background-color: #618770;
+        width: 300px;
+    }
+
+    .nav li {
+        font-size: 30px;
+    }
+
+    .kutia {
+        margin-top: 400px;
+        height: 340px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 130px 25px;
+    }
+
+    #titulli {
+        font-size: 2vw;
+    }
+
+    #informata {
+        font-size: 31px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 550px;
+    }
+}
+
+
+
+@media (min-width: 2100px) {
+
+    .logo {
+        background-color: #618770;
+        width: 350px;
+    }
+
+    .nav li {
+        font-size: 33px;
+    }
+
+    .kutia {
+        margin-top: 400px;
+        height: 340px;
+    }
+
+    #lista {
+        padding-left: 100px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 130px 25px;
+    }
+
+    #titulli {
+        font-size: 2.2vw;
+    }
+
+    #informata {
+        font-size: 34px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 650px;
+    }
+}

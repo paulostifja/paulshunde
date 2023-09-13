@@ -1,0 +1,1477 @@
+/*Start Navbar 1*/
+.logo {
+    background-color: #618770;
+    width: 45px;
+}
+
+.bodi {
+    background-color:#618770;
+}
+
+.nav {
+    text-align: center;
+    align-items: flex-end;
+}
+
+.nav li {
+    flex: 1;
+    font-size: 4px;
+    font-family: Abhaya Libre;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/*End Navbar 1*/
+
+
+/*Start second (2) part*/
+
+#row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+#bllok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    width: 65vw;
+    margin-right: 4px;
+}
+
+#about {
+    color: #FFF;
+    font-family: Abhaya Libre Medium;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 9px;
+    letter-spacing: 2.2px;
+}
+
+#text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 2.5vw;
+}
+
+#dog {
+    width: 30vw;
+    height: 80px;
+}
+
+/* End second (2) part*/
+
+
+/* Start third (3) part*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Qendron elementet vertikalisht në mes */
+    justify-content: center; /* Qendron elementet horizontalisht në mes */
+    margin-top: 30px;
+}
+
+#pyetje {
+    color: #FFF;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 8px;
+    white-space: nowrap;
+}
+
+#pergjigje {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 3px;
+    font-size: 4px;
+}
+
+/* End third (3) part */
+
+
+/* Start fourth (4) part */
+
+#kontroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.informata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.photo_control {
+    width: 20px;
+    height: 20px;
+}
+
+.titulli {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 5.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.tekst {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 4px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0px;
+}
+
+/*  End fourth (4) part */
+
+/* Start five (5) part */
+
+.kutia {
+    margin-top: 30px;
+    height: 60px;
+    width: 100%;
+    background-image: url("kutia.jpg");
+    display: inline-flex;
+}
+#lista {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#lista li {
+    font-size: 2.6vw;
+    margin: 20px 5px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#lista li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#titulli {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+}
+
+#informata {
+    color: #000000;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 2.1vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#box {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+/* End five (5) part */
+
+
+
+
+
+
+/* This is where @medias starts so that the code becomes responsive for different screen sizes */
+
+@media (min-width: 200px) {
+
+    .logo {
+        width: 60px;
+    }
+    
+    .nav li {
+        font-size: 5px;
+    }
+    #row {
+        margin-top: 30px;
+    }
+    
+    #bllok {
+        height: 110px;
+        width: 60vw;
+        margin-right: 10px;
+    }
+    
+    #about {
+        font-size: 12px;
+        letter-spacing: 3px;
+    }
+    
+    #text {
+        font-size: 2.5vw;
+    }
+    
+    #dog {
+        width: 70px;
+        height: 110px;
+    }
+
+    .container {
+        margin-top: 35px;
+    }
+    
+    #pyetje {
+        font-size: 11px;
+    }
+    
+    #pergjigje {
+        margin-top: 4px;
+        font-size: 6px;
+    }
+
+    #kontroll {
+        margin-top: 20px;
+    }
+    
+    .informata {
+        margin-right: 4px;
+    }
+    
+    .photo_control {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .titulli {
+        font-size: 8px;
+        margin-top: 5px;
+    }
+    
+    .tekst {
+        font-size: 5px;
+        margin-top: 3px;
+    }
+
+    .kutia {
+        margin-top: 35px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #lista li {
+        font-size: 2.4vw;
+        margin: 25px 7px;
+    }
+    
+    #titulli {
+        font-size: 3.2vw;
+    }
+    
+    #informata {
+        font-size: 5px;
+    }
+    
+    #box {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+}
+
+
+
+@media (min-width: 250px) {
+
+    .logo {
+        width: 70px;
+    }
+    
+    .nav li {
+        font-size: 7px;
+    }
+    #row {
+        margin-top: 40px;
+    }
+    
+    #bllok {
+        height: 130px;
+        width: 155px;
+        margin-right: 10px;
+    }
+    
+    #about {
+        font-size: 16px;
+        letter-spacing: 3.3px;
+    }
+    
+    #text {
+        font-size: 2.3vw;
+    }
+    
+    #dog {
+        width: 90px;
+        height: 130px;
+    }
+
+    .container {
+        margin-top: 40px;
+    }
+    
+    #pyetje {
+        font-size: 13px;
+    }
+    
+    #pergjigje {
+        margin-top: 5px;
+        font-size: 7px;
+    }
+
+    #kontroll {
+        margin-top: 25px;
+    }
+    
+    .informata {
+        margin-right: 4px;
+    }
+    
+    .photo_control {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .titulli {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    
+    .tekst {
+        font-size: 7px;
+        margin-top: 5px;
+    }
+
+    .kutia {
+        margin-top: 60px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #lista li {
+        font-size: 2.4vw;
+        margin: 30px 7px;
+    }
+    
+    #titulli {
+        font-size: 3.2vw;
+    }
+    
+    #informata {
+        font-size: 7px;
+    }
+    
+    #box {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+}
+
+
+
+@media (min-width: 320px) {
+
+    .logo {
+        width: 80px;
+    }
+
+    .nav li {
+        font-size: 9px;
+    }
+
+    #row {
+        margin-top: 60px;
+    }
+    
+    #bllok {
+        height: 155px;
+        width: 60%;
+        margin-right: 5px;
+    }
+    
+    #about {
+        font-size: 26px;
+        letter-spacing: 4.4px;
+    }
+    
+    #text {
+        font-size: 9.5px;
+    }
+    
+    #dog {
+        width: 33%;
+        height: 155px;
+    }
+
+    .container {
+        margin-top: 80px;
+    }
+    
+    #pyetje {
+        font-size: 16px;
+    }
+    
+    #pergjigje {
+        font-size: 9.5px;
+    }
+
+    #kontroll {
+        margin-top: 35px;
+    }
+    
+    .informata {
+        margin-right: 5px;
+    }
+    
+    .photo_control {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .titulli {
+        font-size: 11px;
+        margin-top: 5px;
+    }
+    
+    .tekst {
+        font-size: 9px;
+        margin-top: 10px;
+    }
+
+    .kutia {
+        margin-top: 80px;
+        height: 100%;
+        width: 100%;
+    }
+    
+    #lista li {
+        font-size: 2.6vw;
+        margin: 40px 8px;
+    }
+    
+    #titulli {
+        font-size: 3.5vw;
+    }
+    
+    #informata {
+        font-size: xx-small;
+    }
+    
+    #box {
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+}
+
+
+
+@media (min-width: 400px) {
+
+    #row {
+        margin-top: 65px;
+    }
+    
+    #bllok {
+        height: 165px;
+        width: 63%;
+        margin-right: 15px;
+    }
+    
+    #about {
+        font-size: 33px;
+        letter-spacing: 4.4px;
+    }
+    
+    #text {
+        font-size: 10px;
+    }
+    
+    #dog {
+        width: 29%;
+        height: 165px;
+    }
+
+    .container {
+        margin-top: 80px;
+    }
+    
+    #pyetje {
+        font-size: 18px;
+    }
+    
+    #pergjigje {
+        font-size: 11px;
+    }
+
+    #kontroll {
+        margin-top: 45px;
+    }
+    
+    .informata {
+        margin-right: 6px;
+    }
+    
+    .photo_control {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .titulli {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .tekst {
+        font-size: 10px;
+        margin-top: 15px;
+    }
+
+    .kutia {
+        margin-top: 80px;
+        height: 100%;
+    }
+
+    #lista {
+        padding-left: 0px;
+    }
+
+    #lista li {
+        font-size: 2.6vw;
+        margin: 40px 8px;
+    }
+
+    #titulli {
+        font-size: 3vw;
+    }
+
+    #informata {
+        font-size: x-small;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+}
+
+
+
+@media (min-width: 500px) {
+
+    .logo {
+        background-color: #618770;
+        width: 125px;
+    }
+
+    .nav li {
+        font-size: 13px;
+    }
+
+    #row {
+        margin-top: 50px;
+    }
+    
+    #bllok {
+        height: 210px;
+        width: 61%;
+        margin-right: 15px;
+    }
+    
+    #about {
+        font-size: 40px;
+        letter-spacing: 4.4px;
+    }
+    
+    #text {
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    
+    #dog {
+        width: 31%;
+        height: 210px;
+    }
+
+    .container {
+        margin-top: 70px;
+    }
+    
+    #pyetje {
+        font-size: 20px;
+    }
+    
+    #pergjigje {
+        font-size: 13px;
+    }
+
+    #kontroll {
+        margin-top: 40px;
+    }
+    
+    .informata {
+        margin-right: 5px;
+    }
+    
+    .photo_control {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .titulli {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    
+    .tekst {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+
+    .kutia {
+        margin-top: 60px;
+        height: 150px;
+    }
+
+    #lista {
+        padding-left: 10px;
+    }
+
+    #lista li {
+        font-size: 2.6vw;
+        margin: 65px 8px;
+    }
+
+    #titulli {
+        font-size: 3vw;
+    }
+
+    #informata {
+        font-size: small;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+}
+
+
+
+@media (min-width: 650px) {
+
+    #row {
+        margin-top: 50px;
+    }
+    
+    #bllok {
+        height: 230px;
+        width: 63%;
+        margin-right: 25px;
+    }
+    
+    #about {
+        font-size: 40px;
+        letter-spacing: 5.3px;
+    }
+    
+    #text {
+        font-size: 15px;
+    }
+    
+    #dog {
+        width: 29%;
+        height: 230px;
+    }
+
+    .container {
+        margin-top: 70px;
+    }
+    
+    #pyetje {
+        font-size: 22px;
+    }
+    
+    #pergjigje {
+        font-size: 15px;
+    }
+
+    #kontroll {
+        margin-top: 40px;
+    }
+    
+    .informata {
+        margin-right: 10px;
+    }
+    
+    .photo_control {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .titulli {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .tekst {
+        font-size: 14px;
+        margin-top: 7px;
+    }
+
+    #titulli {
+        font-size: 2.6vw;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+}
+
+
+
+@media (min-width: 700px) {
+
+    #row {
+        margin-top: 60px;
+    }
+    
+    #bllok {
+        height: 280px;
+        width: 58%;
+        margin-right: 45px;
+    }
+    
+    #about {
+        font-size: 45px;
+        letter-spacing: 6.6px;
+    }
+    
+    #text {
+        font-size: 16px;
+    }
+    
+    #dog {
+        width: 33%;
+        height: 280px;
+    }
+
+    .container {
+        margin-top: 85px;
+    }
+    
+    #pyetje {
+        font-size: 26px;
+    }
+    
+    #pergjigje {
+        font-size: 17px;
+    }
+
+    #kontroll {
+        margin-top: 50px;
+    }
+    
+    .informata {
+        margin-right: 15px;
+    }
+    
+    .photo_control {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .titulli {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .tekst {
+        font-size: 14px;
+        margin-top: 7px;
+    }
+
+    .kutia {
+        margin-top: 130px;
+        height: 150px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 2.1vw;
+        margin: 65px 10px;
+    }
+
+    #titulli {
+        font-size: 2.5vw;
+    }
+
+    #informata {
+        font-size: medium;
+    }
+
+    #box {
+        margin-top: 20px;
+        margin-left: 110px;
+    }
+}
+
+
+
+@media (min-width: 800px) {
+
+    .logo {
+        background-color: #618770;
+        width: 150px;
+    }
+
+    .nav li {
+        font-size: 15px;
+    }
+
+    #row {
+        margin-top: 80px;
+    }
+    
+    #bllok {
+        height: 350px;
+        width: 50%;
+        margin-right: 40px;
+    }
+    
+    #about {
+        font-size: 50px;
+        letter-spacing: 6.6px;
+    }
+    
+    #text {
+        font-size: 17px;
+        margin-top: 45px;
+    }
+    
+    #dog {
+        width: 33%;
+        height: 350px;
+    }
+
+    .container {
+        margin-top: 100px;
+    }
+    
+    #pyetje {
+        font-size: 27px;
+    }
+    
+    #pergjigje {
+        font-size: 18px;
+    }
+
+    #kontroll {
+        margin-top: 60px;
+    }
+    
+    .informata {
+        margin-right: 15px;
+    }
+    
+    .photo_control {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .titulli {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .tekst {
+        font-size: 14px;
+        margin-top: 7px;
+        width: 190px;
+    }
+
+    .kutia {
+        margin-top: 140px;
+        height: 180px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 80px 10px;
+    }
+
+    #titulli {
+        font-size: 2.5vw;
+    }
+
+    #informata {
+        font-size: 16px;
+    }
+
+    #box {
+        margin-top: 30px;
+        margin-left: 230px;
+    }
+}
+
+
+
+@media (min-width: 1000px) {
+
+    .logo {
+        background-color: #618770;
+        width: 200px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    #row {
+        margin-top: 90px;
+    }
+    
+    #bllok {
+        height: 390px;
+        width: 50%;
+        margin-right: 45px;
+    }
+    
+    #about {
+        font-size: 60px;
+        letter-spacing: 7.7px;
+    }
+    
+    #text {
+        font-size: 21px;
+    }
+    
+    #dog {
+        width: 32%;
+        height: 390px;
+    }
+
+    .container {
+        margin-top: 120px;
+    }
+    
+    #pyetje {
+        font-size: 38px;
+    }
+    
+    #pergjigje {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    #kontroll {
+        margin-top: 70px;
+    }
+    
+    .informata {
+        margin-right: 15px;
+    }
+    
+    .photo_control {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .titulli {
+        font-size: 21px;
+        margin-top: 15px;
+    }
+    
+    .tekst {
+        font-size: 17px;
+        margin-top: 10px;
+        width: 235px;
+    }
+
+    .kutia {
+        margin-top: 120px;
+        height: 230px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 80px 20px;
+    }
+
+    #titulli {
+        font-size: 2vw;
+    }
+
+    #informata {
+        font-size: 18px;
+    }
+
+    #box {
+        margin-top: 30px;
+        margin-left: 250px;
+    }
+}
+
+
+
+@media (min-width: 1250px) {
+
+    .logo {
+        background-color: #618770;
+        width: 200px;
+    }
+
+    .nav li {
+        font-size: 18px;
+    }
+
+    #row {
+        margin-top: 110px;
+    }
+    
+    #bllok {
+        height: 480px;
+        width: 45%;
+        margin-right: 60px;
+    }
+    
+    #about {
+        font-size: 80px;
+        letter-spacing: 7.7px;
+    }
+    
+    #text {
+        font-size: 23px;
+        margin-top: 59px;
+    }
+    
+    #dog {
+        width: 30%;
+        height: 480px;
+    }
+
+    .container {
+        margin-top: 123px;
+    }
+    
+    #pyetje {
+        font-size: 40px;
+    }
+    
+    #pergjigje {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    #kontroll {
+        margin-top: 40px;
+    }
+    
+    .informata {
+        margin-right: 23px;
+    }
+    
+    .photo_control {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .titulli {
+        font-size: 27px;
+        margin-top: 14px;
+    }
+    
+    .tekst {
+        font-size: 22px;
+        margin-top: 34px;
+        width: 300px;
+    }
+
+    .kutia {
+        margin-top: 106px;
+        height: 290px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 120px 25px;
+    }
+
+    #titulli {
+        font-size: 2vw;
+    }
+
+    #informata {
+        font-size: 25px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+}
+
+
+
+@media (min-width: 1500px) {
+
+    .logo {
+        background-color: #618770;
+        width: 260px;
+    }
+
+    .nav li {
+        font-size: 23px;
+    }
+
+    #row {
+        margin-top: 140px;
+    }
+    
+    #bllok {
+        height: 570px;
+        width: 45%;
+        margin-right: 100px;
+    }
+    
+    #about {
+        font-size: 100px;
+        letter-spacing: 8.8px;
+    }
+    
+    #text {
+        font-size: 29px;
+    }
+    
+    #dog {
+        width: 30%;
+        height: 570px;
+    }
+
+    .container {
+        margin-top: 140px;
+    }
+    
+    #pyetje {
+        font-size: 55px;
+    }
+    
+    #pergjigje {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    #kontroll {
+        margin-top: 50px;
+    }
+    
+    .informata {
+        margin-right: 30px;
+    }
+    
+    .photo_control {
+        width: 190px;
+        height: 190px;
+    }
+    
+    .titulli {
+        font-size: 30px;
+        margin-top: 14px;
+    }
+    
+    .tekst {
+        font-size: 25px;
+        margin-top: 34px;
+        width: 330px;
+    }
+
+    .kutia {
+        margin-top: 120px;
+        height: 290px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 120px 25px;
+    }
+
+    #titulli {
+        font-size: 2.5vw;
+    }
+
+    #informata {
+        font-size: 30px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 420px;
+    }
+}
+
+
+
+@media (min-width: 1800px) {
+
+    .logo {
+        background-color: #618770;
+        width: 300px;
+    }
+
+    .nav li {
+        font-size: 30px;
+    }
+
+    #row {
+        margin-top: 160px;
+    }
+    
+    #bllok {
+        height: 720px;
+        width: 45%;
+        margin-right: 150px;
+    }
+    
+    #about {
+        font-size: 120px;
+        letter-spacing: 9.9px;
+    }
+    
+    #text {
+        font-size: 36px;
+    }
+    
+    #dog {
+        width: 33%;
+        height: 720px;
+    }
+
+    .container {
+        margin-top: 150px;
+    }
+    
+    #pyetje {
+        font-size: 70px;
+    }
+    
+    #pergjigje {
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    #kontroll {
+        margin-top: 70px;
+    }
+    
+    .informata {
+        margin-right: 40px;
+    }
+    
+    .photo_control {
+        width: 240px;
+        height: 240px;
+    }
+    
+    .titulli {
+        font-size: 35px;
+        margin-top: 17px;
+    }
+    
+    .tekst {
+        font-size: 28px;
+        margin-top: 34px;
+        width: 390px;
+    }
+
+    .kutia {
+        margin-top: 150px;
+        height: 340px;
+    }
+
+    #lista {
+        padding-left: 60px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 130px 25px;
+    }
+
+    #titulli {
+        font-size: 2vw;
+    }
+
+    #informata {
+        font-size: 31px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 550px;
+    }
+
+}
+
+
+
+@media (min-width: 2100px) {
+
+    .logo {
+        background-color: #618770;
+        width: 350px;
+    }
+
+    .nav li {
+        font-size: 33px;
+    }
+
+    #row {
+        margin-top: 170px;
+    }
+    
+    #bllok {
+        height: 720px;
+        width: 45%;
+        margin-right: 155px;
+    }
+    
+    #about {
+        font-size: 110px;
+        letter-spacing: 10.10px;
+    }
+    
+    #text {
+        font-size: 38px;
+    }
+    
+    #dog {
+        width: 33%;
+        height: 820px;
+    }
+
+    .container {
+        margin-top: 150px;
+    }
+    
+    #pyetje {
+        font-size: 75px;
+    }
+    
+    #pergjigje {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    #kontroll {
+        margin-top: 75px;
+    }
+    
+    .informata {
+        margin-right: 50px;
+    }
+    
+    .photo_control {
+        width: 270px;
+        height: 270px;
+    }
+    
+    .titulli {
+        font-size: 37px;
+        margin-top: 18px;
+    }
+    
+    .tekst {
+        font-size: 37px;
+        margin-top: 34px;
+        width: 480px;
+    }
+
+    .kutia {
+        margin-top: 200px;
+        height: 340px;
+    }
+
+    #lista {
+        padding-left: 100px;
+    }
+
+    #lista li {
+        font-size: 1.8vw;
+        margin: 130px 25px;
+    }
+
+    #titulli {
+        font-size: 2.2vw;
+    }
+
+    #informata {
+        font-size: 34px;
+    }
+
+    #box {
+        margin-top: 50px;
+        margin-left: 650px;
+    }
+
+}
